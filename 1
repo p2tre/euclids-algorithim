@@ -1,0 +1,26 @@
+# euclids-algorithim
+# Finding the GCD of two positive integers
+import random
+x = random.randint(1,1000)
+y = random.randint(1,x)
+print(x,y)
+#x=19
+#y=7
+
+if x%y==0:
+ print("GCD=", y)
+#if x%y<y:
+ #print("GCD=",x%y)
+else: 
+ def my_function(x,y):
+  #if x%y==0:
+  if x<y:  
+   return(x,y)
+  else:
+   #print(x,y)
+   if y == 0:
+     print("The GCD is %s" % x)
+   else:  
+    my_function(y,x%y)
+ 
+my_function(x,y)
