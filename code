@@ -1,5 +1,6 @@
 # euclids-algorithim
 # Finding the GCD of two positive integers
+# x must be the larger integer
 import random
 x = random.randint(1,1000)
 y = random.randint(1,x)
